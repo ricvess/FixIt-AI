@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f8f5" />
+  <meta name="description" content="FixIt AI helps you understand household problems and find practical next steps with AI." />
+  <title>FixIt AI | See the Problem. Find the Solution.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" id="top">
+      <a class="brand" href="#top" aria-label="FixIt AI home" data-home-link>
+        <span class="brand-mark"><i data-lucide="wrench"></i></span>
+        <span>FixIt<span class="brand-ai">AI</span></span>
+      </a>
+      <nav class="landing-nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch color theme" title="Switch theme">
+          <i data-lucide="moon"></i>
+        </button>
+        <button class="button button-quiet" type="button" data-open-auth="login">Log in</button>
+        <button class="button button-primary button-small" type="button" data-open-auth="signup">Get started <i data-lucide="arrow-up-right"></i></button>
+      </div>
+    </header>
+
+    <main>
+      <!-- LANDING PAGE -->
+      <section class="landing-page" id="landing-page">
+        <section class="hero section-wrap">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR EVERYDAY HOME ASSISTANT</div>
+            <h1>Something broken?<br /><span>Let's figure it out.</span></h1>
+            <p class="hero-description">Take a photo, understand what might be wrong, and discover the next steps with FixIt AI.</p>
+            <div class="hero-actions">
+              <button class="button button-primary button-large" type="button" data-open-auth="signup">Start with a photo <i data-lucide="arrow-up-right"></i></button>
+              <a class="button button-outline button-large" href="#how-it-works">See how it works <i data-lucide="play"></i></a>
+            </div>
+            <div class="hero-proof">
+              <span class="proof-icon"><i data-lucide="shield-check"></i></span>
+              <span>Practical guidance. Safety comes first.</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-glow"></div>
+            <div class="hero-card">
+              <div class="hero-card-top">
+                <div><span class="tiny-label">FIXIT AI SCANNER</span><strong>Problem overview</strong></div>
+                <span class="live-indicator"><span></span> Ready to scan</span>
+              </div>
+              <div class="demo-photo">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1000&q=85" alt="Household faucet in a modern kitchen" />
+                <span class="scan-corner corner-tl"></span><span class="scan-corner corner-tr"></span>
+                <span class="scan-corner corner-bl"></span><span class="scan-corner corner-br"></span>
+                <div class="scan-label"><i data-lucide="scan"></i> Example image</div>
+              </div>
+              <div class="demo-result">
+                <div class="demo-result-icon"><i data-lucide="droplets"></i></div>
+                <div class="demo-result-copy"><span class="tiny-label">POSSIBLE ISSUE</span><strong>Water leakage</strong><span>Kitchen faucet · Example result</span></div>
+                <span class="status-pill status-medium">Check needed</span>
+              </div>
+              <div class="demo-progress"><span></span></div>
+              <div class="demo-foot"><span><i data-lucide="sparkles"></i> AI-assisted insights</span><span>Illustrative preview</span></div>
+            </div>
+            <div class="floating-note floating-note-one"><span class="floating-icon green"><i data-lucide="lightbulb"></i></span><span><strong>Understand the issue</strong><small>Clear explanations</small></span></div>
+            <div class="floating-note floating-note-two"><span class="floating-icon blue"><i data-lucide="list-checks"></i></span><span><strong>Know what to do</strong><small>Guided next steps</small></span></div>
+          </div>
+        </section>
+
+        <section class="trust-strip section-wrap">
+          <span>MADE FOR EVERYDAY HOUSEHOLD PROBLEMS</span>
+          <div class="trust-items"><span><i data-lucide="camera"></i> Photo-based</span><span><i data-lucide="brain-circuit"></i> AI-assisted</span><span><i data-lucide="shield-check"></i> Safety-aware</span></div>
+        </section>
+
+        <section class="section-wrap content-section" id="how-it-works">
+          <div class="section-heading">
+            <span class="eyebrow">A SIMPLE PROCESS</span>
+            <h2>From a photo to a<br /><span>clearer next step.</span></h2>
+            <p>FixIt AI helps you understand what you are seeing before deciding what to do next.</p>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card"><span class="step-number">01</span><div class="step-icon"><i data-lucide="camera"></i></div><h3>Take a photo</h3><p>Upload a clear photo of the item or area you want to check.</p></article>
+            <article class="step-card"><span class="step-number">02</span><div class="step-icon"><i data-lucide="scan-search"></i></div><h3>Let AI examine it</h3><p>AI reviews visible details and looks for possible issues.</p></article>
+            <article class="step-card"><span class="step-number">03</span><div class="step-icon"><i data-lucide="clipboard-check"></i></div><h3>Review your guide</h3><p>Explore possible causes, safe checks, and recommended next steps.</p></article>
+          </div>
+        </section>
+
+        <section class="categories-section" id="categories">
+          <div class="section-wrap content-section">
+            <div class="section-heading heading-row">
+              <div><span class="eyebrow">WHAT CAN YOU CHECK?</span><h2>Everyday items.<br /><span>One helpful place.</span></h2></div>
+              <p>Start with common household items. FixIt AI will tell you when an image does not provide enough information.</p>
+            </div>
+            <div class="category-grid">
+              <article class="category-card" data-category="Electronics"><div class="category-art category-electronics"><i data-lucide="tv"></i></div><div><h3>Electronics</h3><p>Fans, TVs, fridges, blenders</p></div><i class="category-arrow" data-lucide="arrow-up-right"></i></article>
+              <article class="category-card" data-category="Kitchen & plumbing"><div class="category-art category-kitchen"><i data-lucide="faucet"></i></div><div><h3>Kitchen & plumbing</h3><p>Faucets, sinks, stoves</p></div><i class="category-arrow" data-lucide="arrow-up-right"></i></article>
+              <article class="category-card" data-category="Furniture"><div class="category-art category-furniture"><i data-lucide="armchair"></i></div><div><h3>Furniture</h3><p>Tables, chairs, cabinets</p></div><i class="category-arrow" data-lucide="arrow-up-right"></i></article>
+              <article class="category-card" data-category="Home structure"><div class="category-art category-structure"><i data-lucide="house"></i></div><div><h3>Home structure</h3><p>Walls, doors, floors, windows</p></div><i class="category-arrow" data-lucide="arrow-up-right"></i></article>
+              <article class="category-card" data-category="Other household items"><div class="category-art category-other"><i data-lucide="package"></i></div><div><h3>Other household items</h3><p>Irons, vacuums, dispensers</p></div><i class="category-arrow" data-lucide="arrow-up-right"></i></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-wrap content-section about-section" id="about">
+          <div class="about-visual"><div class="about-orbit orbit-one"></div><div class="about-orbit orbit-two"></div><div class="about-center"><span class="brand-mark large"><i data-lucide="wrench"></i></span><strong>FixIt<span>AI</span></strong><small>SEE · UNDERSTAND · ACT</small></div><span class="orbit-chip chip-one"><i data-lucide="camera"></i></span><span class="orbit-chip chip-two"><i data-lucide="brain-circuit"></i></span><span class="orbit-chip chip-three"><i data-lucide="shield-check"></i></span></div>
+          <div class="about-copy"><span class="eyebrow">ABOUT FIXIT AI</span><h2>Make the next step<br /><span>easier to understand.</span></h2><p>Household problems can be confusing. FixIt AI turns a photo into an organized explanation, so you can better understand what may be happening and when to ask a professional for help.</p><div class="about-points"><span><i data-lucide="check-circle-2"></i> Clear, structured explanations</span><span><i data-lucide="check-circle-2"></i> Practical and safety-aware guidance</span><span><i data-lucide="check-circle-2"></i> Your diagnosis history in one place</span></div><button class="button button-primary" type="button" data-open-auth="signup">Explore FixIt AI <i data-lucide="arrow-up-right"></i></button></div>
+        </section>
+
+        <section class="section-wrap final-cta"><div><span class="eyebrow">READY WHEN YOU ARE</span><h2>Let's understand<br />what's going on.</h2><p>Sign in to start your first household scan.</p></div><button class="button button-light button-large" type="button" data-open-auth="signup">Get started <i data-lucide="arrow-up-right"></i></button></section>
+      </section>
+
+      <!-- AUTHENTICATION -->
+      <section class="auth-page hidden" id="auth-page">
+        <div class="auth-backdrop"></div>
+        <div class="auth-card">
+          <button class="auth-back" type="button" data-back-home><i data-lucide="arrow-left"></i> Back to home</button>
+          <a class="brand auth-brand" href="#" data-home-link><span class="brand-mark"><i data-lucide="wrench"></i></span><span>FixIt<span class="brand-ai">AI</span></span></a>
+          <div class="auth-heading"><span class="eyebrow">YOUR HOUSEHOLD ASSISTANT</span><h1 id="auth-title">Welcome back.</h1><p id="auth-subtitle">Sign in to continue to your workspace.</p></div>
+          <form id="auth-form" class="auth-form">
+            <label id="name-field" class="form-field hidden"><span>Full name</span><div class="input-wrap"><i data-lucide="user"></i><input id="auth-name" type="text" autocomplete="name" placeholder="Your name" /></div></label>
+            <label class="form-field"><span>Email address</span><div class="input-wrap"><i data-lucide="mail"></i><input id="auth-email" type="email" autocomplete="email" placeholder="you@example.com" required /></div></label>
+            <label class="form-field"><span>Password</span><div class="input-wrap"><i data-lucide="lock"></i><input id="auth-password" type="password" autocomplete="current-password" placeholder="At least 6 characters" minlength="6" required /><button class="password-toggle" type="button" aria-label="Show password"><i data-lucide="eye"></i></button></div></label>
+            <div class="auth-message hidden" id="auth-message" role="alert"></div>
+            <button class="button button-primary button-full button-large" id="auth-submit" type="submit">Log in <i data-lucide="arrow-right"></i></button>
+          </form>
+          <p class="auth-switch" id="auth-switch">New to FixIt AI? <button type="button" data-switch-auth="signup">Create an account</button></p>
+          <p class="auth-legal">By continuing, you agree to use FixIt AI responsibly. AI results are estimates, not professional inspections.</p>
+        </div>
+      </section>
+
+      <!-- DASHBOARD -->
+      <section class="dashboard hidden" id="dashboard">
+        <aside class="sidebar" id="sidebar">
+          <a class="brand sidebar-brand" href="#" data-dashboard-view="overview"><span class="brand-mark"><i data-lucide="wrench"></i></span><span>FixIt<span class="brand-ai">AI</span></span></a>
+          <div class="sidebar-label">WORKSPACE</div>
+          <nav class="sidebar-nav">
+            <button class="side-link active" type="button" data-dashboard-view="overview"><i data-lucide="layout-dashboard"></i><span>Overview</span></button>
+            <button class="side-link" type="button" data-dashboard-view="scanner"><i data-lucide="scan-line"></i><span>AI Scanner</span><span class="side-new">NEW</span></button>
+            <button class="side-link" type="button" data-dashboard-view="history"><i data-lucide="history"></i><span>Scan history</span></button>
+          </nav>
+          <div class="sidebar-bottom">
+            <div class="sidebar-help"><span class="help-icon"><i data-lucide="life-buoy"></i></span><strong>Need a hand?</strong><p>Check our safety-first tips before attempting a repair.</p><button type="button" data-dashboard-view="safety">Safety guidelines <i data-lucide="arrow-up-right"></i></button></div>
+            <button class="side-link" type="button" data-dashboard-view="about"><i data-lucide="info"></i><span>About FixIt AI</span></button>
+            <div class="sidebar-user"><div class="avatar" id="sidebar-avatar">U</div><div class="sidebar-user-info"><strong id="sidebar-user-name">User</strong><span id="sidebar-user-email">user@example.com</span></div><button class="icon-button logout-button" type="button" id="logout-button" title="Log out" aria-label="Log out"><i data-lucide="log-out"></i></button></div>
+          </div>
+        </aside>
+
+        <div class="dashboard-main">
+          <header class="dashboard-topbar">
+            <button class="icon-button mobile-menu-button" id="mobile-menu-button" type="button" aria-label="Open menu"><i data-lucide="menu"></i></button>
+            <div class="breadcrumb"><span>Workspace</span><i data-lucide="chevron-right"></i><strong id="breadcrumb-current">Overview</strong></div>
+            <div class="dashboard-top-actions"><span class="topbar-date" id="current-date"></span><button class="icon-button theme-toggle" type="button" aria-label="Switch color theme"><i data-lucide="moon"></i></button><div class="avatar avatar-small" id="top-avatar">U</div></div>
+          </header>
+
+          <div class="dashboard-content">
+            <section class="dashboard-view active" id="view-overview">
+              <div class="welcome-row"><div><span class="eyebrow">YOUR HOME WORKSPACE</span><h1>Good to see you, <span id="welcome-name">there</span>.</h1><p>What would you like to check today?</p></div><button class="button button-primary" type="button" data-dashboard-view="scanner"><i data-lucide="plus"></i> New scan</button></div>
+              <div class="dashboard-hero">
+                <div class="dashboard-hero-copy"><span class="hero-mini-label"><i data-lucide="sparkles"></i> YOUR AI-POWERED ASSISTANT</span><h2>Not sure what's<br />wrong with something?</h2><p>Upload a photo and get a clearer picture of the possible issue and what to do next.</p><button class="button button-light" type="button" data-dashboard-view="scanner">Start a scan <i data-lucide="arrow-up-right"></i></button></div>
+                <div class="dashboard-hero-art"><div class="art-circle circle-a"></div><div class="art-circle circle-b"></div><div class="art-scan-card"><i data-lucide="scan-search"></i><span>IMAGE ANALYSIS</span><strong>Ready when<br />you are.</strong><div class="art-scan-line"></div></div><span class="art-spark spark-a">✳</span><span class="art-spark spark-b">✦</span></div>
+              </div>
+              <div class="stats-grid">
+                <article class="stat-card"><div class="stat-top"><span>Total scans</span><span class="stat-icon green-icon"><i data-lucide="scan"></i></span></div><strong id="stat-total">0</strong><small>All your analyses</small></article>
+                <article class="stat-card"><div class="stat-top"><span>Last scan</span><span class="stat-icon blue-icon"><i data-lucide="clock-3"></i></span></div><strong class="stat-date" id="stat-last">—</strong><small>Your most recent check</small></article>
+                <article class="stat-card"><div class="stat-top"><span>Saved results</span><span class="stat-icon yellow-icon"><i data-lucide="bookmark"></i></span></div><strong id="stat-saved">0</strong><small>Results kept for later</small></article>
+              </div>
+              <div class="section-title-row"><div><h2>Recent scans</h2><p>Your latest household checkups.</p></div><button class="text-button" type="button" data-dashboard-view="history">View all <i data-lucide="arrow-right"></i></button></div>
+              <div class="history-list" id="recent-list"><div class="empty-state compact-empty"><span class="empty-icon"><i data-lucide="image-plus"></i></span><strong>No scans yet</strong><p>Your recent diagnoses will appear here.</p><button class="button button-outline" type="button" data-dashboard-view="scanner">Start your first scan</button></div></div>
+            </section>
+
+            <section class="dashboard-view" id="view-scanner">
+              <div class="page-heading"><span class="eyebrow">AI PHOTO SCANNER</span><h1>Let's take a closer look.</h1><p>Upload a photo of the household item or area you want to check.</p></div>
+              <div class="scanner-layout">
+                <div class="scanner-main-card">
+                  <div class="scanner-card-heading"><div><h2>Upload an image</h2><p>Use a clear, well-lit photo for a more useful analysis.</p></div><span class="step-chip">STEP 01</span></div>
+                  <div class="upload-zone" id="upload-zone">
+                    <input type="file" id="image-input" accept="image/jpeg,image/png,image/webp" hidden />
+                    <div class="upload-placeholder" id="upload-placeholder"><div class="upload-icon"><i data-lucide="cloud-upload"></i></div><strong>Drop your image here</strong><span>or <button type="button" class="inline-link" id="browse-image">browse files</button></span><small>JPG, PNG or WEBP · Up to 8 MB</small></div>
+                    <div class="image-preview hidden" id="image-preview"><img id="preview-image" alt="Selected image preview" /><div class="preview-overlay"><span id="preview-filename">image.jpg</span><button type="button" class="remove-image" id="remove-image" aria-label="Remove image"><i data-lucide="x"></i></button></div></div>
+                  </div>
+                  <div class="upload-tips"><span><i data-lucide="sun"></i> Good lighting</span><span><i data-lucide="focus"></i> Focus on the issue</span><span><i data-lucide="image"></i> One item per photo</span></div>
+                  <div class="scanner-divider"></div>
+                  <div class="scanner-actions"><div class="privacy-note"><i data-lucide="lock"></i><span>Your image is used to generate your diagnosis.</span></div><button class="button button-primary button-large" id="analyze-button" type="button" disabled>Analyze image <i data-lucide="arrow-right"></i></button></div>
+                  <div class="scan-progress hidden" id="scan-progress"><div class="spinner"></div><div><strong id="progress-title">Analyzing your image...</strong><span id="progress-subtitle">Looking for visible details. This may take a moment.</span></div></div>
+                  <div class="scanner-error hidden" id="scanner-error" role="alert"></div>
+                </div>
+                <aside class="scanner-side">
+                  <div class="side-info-card"><span class="side-info-icon"><i data-lucide="lightbulb"></i></span><h3>Tips for a useful scan</h3><ul><li>Take the photo in a well-lit area.</li><li>Show the whole item and the affected area.</li><li>Avoid blurry or heavily edited images.</li><li>Add another angle if the issue is hard to see.</li></ul></div>
+                  <div class="side-info-card safety-info"><span class="side-info-icon"><i data-lucide="shield-alert"></i></span><h3>Safety first</h3><p>Do not touch exposed wires, gas leaks, hot surfaces, or unstable structures to take a photo. Keep a safe distance and contact a qualified professional when needed.</p><button class="text-button" type="button" data-dashboard-view="safety">Read safety guidelines <i data-lucide="arrow-right"></i></button></div>
+                </aside>
+              </div>
+              <section class="diagnosis-section hidden" id="diagnosis-section">
+                <div class="diagnosis-heading"><div><span class="eyebrow">YOUR SCAN RESULT</span><h2>Here's what we found.</h2><p>Review the possible issue and recommended next steps.</p></div><button class="button button-outline" type="button" id="new-scan-button"><i data-lucide="plus"></i> New scan</button></div>
+                <div id="diagnosis-result"></div>
+              </section>
+            </section>
+
+            <section class="dashboard-view" id="view-history">
+              <div class="page-heading"><span class="eyebrow">YOUR RECORDS</span><h1>Scan history</h1><p>All your previous household analyses, in one place.</p></div>
+              <div class="history-toolbar"><div class="search-box"><i data-lucide="search"></i><input id="history-search" type="search" placeholder="Search your scans..." /></div><button class="button button-outline" type="button" data-dashboard-view="scanner"><i data-lucide="plus"></i> New scan</button></div>
+              <div class="history-list full-history-list" id="history-list"><div class="empty-state"><span class="empty-icon"><i data-lucide="history"></i></span><strong>No scan history yet</strong><p>Your completed scans will show up here.</p></div></div>
+            </section>
+
+            <section class="dashboard-view" id="view-safety">
+              <div class="page-heading"><span class="eyebrow">BEFORE YOU TAKE ACTION</span><h1>Safety comes first.</h1><p>AI guidance can help you understand a problem, but it cannot replace an on-site professional inspection.</p></div>
+              <div class="safety-grid">
+                <article class="safety-card danger"><span class="safety-card-icon"><i data-lucide="zap"></i></span><h2>Electrical issues</h2><p>Stay away from exposed wires, sparks, burning smells, or wet electrical equipment. Do not open electrical appliances or outlets. Contact a qualified electrician.</p></article>
+                <article class="safety-card danger"><span class="safety-card-icon"><i data-lucide="flame"></i></span><h2>Gas and fire risks</h2><p>If you suspect a gas leak, avoid flames and electrical switches. Move away from the area and contact emergency or qualified gas services from a safe location.</p></article>
+                <article class="safety-card warning"><span class="safety-card-icon"><i data-lucide="droplets"></i></span><h2>Water and plumbing</h2><p>Keep water away from electrical equipment. If safe and accessible, use the main water shutoff. Ask a plumber to inspect persistent or hidden leaks.</p></article>
+                <article class="safety-card warning"><span class="safety-card-icon"><i data-lucide="house"></i></span><h2>Structural damage</h2><p>Do not enter areas with sagging ceilings, unstable walls, major cracks, or falling materials. Keep others away and seek a qualified inspection.</p></article>
+              </div>
+              <div class="safety-bottom-note"><i data-lucide="info"></i><p><strong>Remember:</strong> FixIt AI provides image-based estimates. A photo may not reveal hidden faults. Stop if a task feels unsafe and consult a qualified professional.</p></div>
+            </section>
+
+            <section class="dashboard-view" id="view-about">
+              <div class="page-heading"><span class="eyebrow">ABOUT THE PRODUCT</span><h1>Meet FixIt AI</h1><p>See the problem. Find the solution.</p></div>
+              <div class="about-dashboard-card"><div class="about-dashboard-mark"><i data-lucide="wrench"></i></div><div><h2>Understand everyday problems with a little more clarity.</h2><p>FixIt AI is an AI-assisted household problem guide. It analyzes visible details in an uploaded image and organizes possible issues, causes, and next steps. Its purpose is to help users make more informed decisions, not to provide a certified repair diagnosis.</p></div></div>
+              <div class="about-values"><article><i data-lucide="eye"></i><h3>Understand</h3><p>Make visible problems easier to describe.</p></article><article><i data-lucide="list-checks"></i><h3>Explore</h3><p>Review practical checks and possible next steps.</p></article><article><i data-lucide="shield-check"></i><h3>Stay safe</h3><p>Know when to stop and contact a professional.</p></article></div>
+            </section>
+          </div>
+        </div>
+        <div class="mobile-sidebar-backdrop hidden" id="sidebar-backdrop"></div>
+      </section>
+    </main>
+
+    <footer class="landing-footer" id="landing-footer"><div class="section-wrap footer-inner"><a class="brand" href="#top"><span class="brand-mark"><i data-lucide="wrench"></i></span><span>FixIt<span class="brand-ai">AI</span></span></a><span>© <span id="footer-year"></span> FixIt AI. Built to make the next step clearer.</span><a href="#about">About FixIt AI</a></div></footer>
+    <div class="toast-region" id="toast-region" aria-live="polite"></div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
